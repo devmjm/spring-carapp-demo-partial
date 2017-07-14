@@ -11,13 +11,13 @@ https://spring.io/guides/gs/rest-service/
 ### Configure PostgreSQL
 1. Install PostgreSQL
 2. Create new PostgreSQL database named 'CarApp' (username = postgres, Password = demoPass)
-3. Initialize the schema by running script located at:
+3. Initialize the schema by executing the script located at:
 <br/> https://github.com/devmjm/spring-carapp-demo-partial/blob/master/Scripts/CreateAndPopulateCarappDb
 
 ### Configure STS Workspace
-1. Clone the CarAppPartial project from https://github.com/devmjm/spring-carapp-demo-partial to your STS workspace
-2. Open this project in STS
-3. Run the project as a 'Spring Boot App' and confirm it compiles and runs
+1. Clone the CarAppPartial repository from https://github.com/devmjm/spring-carapp-demo-partial to your STS workspace
+2. Open the CarApp project in STS
+3. Run the CarApp project as a 'Spring Boot App' and confirm it compiles and runs
 4. Stop the project
 
 ### Start Building the REST Service
