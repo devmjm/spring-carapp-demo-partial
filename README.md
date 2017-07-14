@@ -14,7 +14,7 @@ https://spring.io/guides/gs/rest-service/
 3. Initialize the schema by running script located at:  
 
 ### Configure STS Workspace…
-1. Clone the CarAppPartial project from https://github.com/devmjm/Demo to your STS workspace
+1. Clone the CarAppPartial project from https://github.com/devmjm/spring-carapp-demo-partial to your STS workspace
 2. Open this project in STS
 3. Run the project as a 'Spring Boot App' and confirm it compiles and runs
 4. Stop the project
