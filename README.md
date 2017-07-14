@@ -11,7 +11,8 @@ https://spring.io/guides/gs/rest-service/
 ### Configure PostgreSQL
 1. Install PostgreSQL
 2. Create new PostgreSQL database named 'CarApp' (username = postgres, Password = demoPass)
-3. Initialize the schema by running script located at:  
+3. Initialize the schema by running script located at:
+https://github.com/devmjm/spring-carapp-demo-partial/blob/master/Scripts/CreateAndPopulateCarappDb
 
 ### Configure STS Workspace
 1. Clone the CarAppPartial project from https://github.com/devmjm/spring-carapp-demo-partial to your STS workspace
