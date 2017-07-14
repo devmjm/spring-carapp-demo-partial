@@ -42,5 +42,5 @@ A completed version of this demo can be found at: https://github.com/devmjm/Demo
 
 ## Additional Resources
 - REST basics: https://spring.io/understanding/REST
-- Advanced REST tutorial: https://spring.io/guides/tutorials/bookmarks/
 - REST Standards: http://www.restapitutorial.com/lessons/httpmethods.html
+- Advanced REST tutorial: https://spring.io/guides/tutorials/bookmarks/
