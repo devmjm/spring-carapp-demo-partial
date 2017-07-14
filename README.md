@@ -1,5 +1,5 @@
 # spring-carapp-demo-partial
-Partial CarApp demo of Spring Boot REST Service
+Demo for creating a RESTful web service using Spring Boot, Maven, and PostgreSQL
 
 ## Tutorial 1: Hello World
 https://spring.io/guides/gs/rest-service/
