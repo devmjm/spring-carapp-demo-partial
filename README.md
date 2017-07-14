@@ -3,14 +3,14 @@ Partial CarApp demo of Spring Boot REST Service
 
 ## Tutorial 1: Hello World
 https://spring.io/guides/gs/rest-service/
-Note: use Maven (not Gradle)
+<br> <i> Note: use Maven (not Gradle) </i>
 
 ## Tutorial 2: CarApp - Basic REST Service
 <b>Tutorial Purpose:</b> The purpose of this tutorial is to demonstrate how to create a basic RESTful web service using Spring Boot, Maven, and PostgreSQL. The four major REST operations are demonstrated (GET, POST, PUT, DELETE). This tutorial intentionally excludes detailed steps on configuring your STS and PostgreSQL environments, as these steps are already well documented in numerous other resources.
 
-### Configure PostreSQL…
+### Configure PostgreSQL…
 1. Install PostgreSQL
-2. Create new PostgresSQL database named 'CarApp' (username = postgres, Password = demoPass)
+2. Create new PostgreSQL database named 'CarApp' (username = postgres, Password = demoPass)
 3. Initialize the schema by running script located at:  
 
 ### Configure STS Workspace…
@@ -36,6 +36,9 @@ Note: use Maven (not Gradle)
 1. Run the project as a 'Spring Boot App'
 2. Use Postman to make REST requests to your service
 3. Confirm you are able to achieve the behavior described in step 3 above.
+
+### Further Help
+A completed version of this demo can be found at: https://github.com/devmjm/Demo/tree/master/CarApp
 
 ## Additional Resources
 - REST basics: https://spring.io/understanding/REST
