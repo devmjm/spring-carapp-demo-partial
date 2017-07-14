@@ -24,7 +24,20 @@ Note: use Maven (not Gradle)
 2. Navigate to the CarController. Note that there are GET, POST, PUT, and DELETE methods outlined.
 3. Fill in the logic for these methods in accordance with RESTful standards (http://www.restapitutorial.com/lessons/httpmethods.html). Your methods should return the following responses:
 
+| VERB         | URI                          | Request Body         | Expected Response                                          |
+| :---         | :---                         | :---                 | :---                                                       |
+|GET           | localhost:8080/cars          | N/A                  | HttpStatus OK (200). <br/> List of all cars in your database.|
+|GET           | localhost:8080/cars/{vin}    | N/A                  | HttpStatus OK (200). <br/> Car with vin is returned |
+|POST          | localhost:8080/cars/         | { "Vin": 9, "Driver": "fb35753c-668c-11e7-ae07-d790c545bb70" } | HttpStatus Created (201). <br/> Car created created              |
+|DELETE        | localhost:8080/cars/{vin}    | N/A                  | HttpStatus OK (200). <br/> Car is deleted. |
+|PUT           | localhost:8080/cars/{vin}    | {	"Vin": 111, "Driver": "fb35753c-668c-11e7-ae07-d790c545bb70" }| HttpStatus OK (200). <br/> Car is updated. |
+
 ### Test Your Service…
 1. Run the project as a 'Spring Boot App'
 2. Use Postman to make REST requests to your service
 3. Confirm you are able to achieve the behavior described in step 3 above.
+
+## Additional Resources
+- REST basics: https://spring.io/understanding/REST
+- Advanced REST tutorial: https://spring.io/guides/tutorials/bookmarks/
+- REST Standards: http://www.restapitutorial.com/lessons/httpmethods.html
