@@ -1,8 +1,0 @@
-com\daimler\CarApp\model\Car.class
-com\daimler\CarApp\controller\IBaseController.class
-com\daimler\CarApp\model\Driver.class
-com\daimler\CarApp\repository\CarRepository.class
-com\daimler\CarApp\service\CarService.class
-com\daimler\CarApp\CarApp.class
-com\daimler\CarApp\controller\BaseController.class
-com\daimler\CarApp\controller\CarController.class
