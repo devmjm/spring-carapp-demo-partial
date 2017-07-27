@@ -41,7 +41,38 @@ https://spring.io/guides/gs/rest-service/
 ### Further Help
 A completed version of this demo can be found at: https://github.com/devmjm/Demo/tree/master/CarApp
 
+## Tutorial 3 - Deploy CarApp Demo to Azure
+<b>Tutorial Purpose:</b> The purpose of this tutorial is to get an introduction to Azure. You will deploy the CarApp you built in Tutorial 2 as an Azure Web Service. Instead of using your local PostgreSQL instance, you will point your application to a pre-configured Azure SQL database.
+
+### Update the CarApp to use Azure SQL Database
+1. Replace your application.properties file with the below values. Ask a team member to provide the username and password for the database.
+
+  spring.datasource.url=jdbc:sqlserver://fuller-sql-dev1.database.windows.net;databaseName=FULLER_SQL_DEV01
+  spring.datasource.username= {db username}
+  spring.datasource.password= {db password}
+  spring.datasource.driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver
+  spring.jpa.show-sql=true
+  spring.jpa.hibernate.dialect=org.hibernate.dialect.SQLServer2012Dialect
+  spring.jpa.hibernate.ddl-auto=validate
+
+2. In the pom.xml file, remove the dependency for PostgreSQL.
+3. Add the dependency below for Azure SQL Server:
+    <dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+			<version>6.2.1.jre8</version>
+		</dependency>
+  
+
+### Deploy the CarApp as an Azure Web Service
+To deploy the CarApp as an Azure Web Service, follow the steps outlined here: 
+https://docs.microsoft.com/en-us/azure/app-service-web/web-sites-java-custom-upload
+
+### Test the CarApp Service
+Test REST endpoints outlined specified in the "Start Building the REST Service" section of Tutorial 2. In the request URLs, replace "localhost:8080" with the domain of your web application. 
+
 ## Additional Resources
 - REST basics: https://spring.io/understanding/REST
 - REST Standards: http://www.restapitutorial.com/lessons/httpmethods.html
 - Advanced REST tutorial: https://spring.io/guides/tutorials/bookmarks/
+- Deploy Java web app to Azure: https://docs.microsoft.com/en-us/azure/app-service-web/web-sites-java-custom-upload
