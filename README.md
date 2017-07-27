@@ -70,6 +70,8 @@ spring.jpa.hibernate.ddl-auto=validate
 To deploy the CarApp as an Azure Web Service, follow the steps outlined here: 
 https://docs.microsoft.com/en-us/azure/app-service/app-service-deploy-spring-boot-web-app-on-azure
 
+<i>Note:</i> for this demo, please use the "Free Tier" Azure service. This will be adequate for the purpose of the demo.
+
 ### Test the CarApp Service
 Test REST endpoints outlined specified in the "Start Building the REST Service" section of Tutorial 2. In the request URLs, replace "localhost:8080" with the domain of your web application. 
 
