@@ -46,23 +46,25 @@ A completed version of this demo can be found at: https://github.com/devmjm/Demo
 
 ### Update the CarApp to use Azure SQL Database
 1. Replace your application.properties file with the below values. Ask a team member to provide the username and password for the database.
-
-  spring.datasource.url=jdbc:sqlserver://fuller-sql-dev1.database.windows.net;databaseName=FULLER_SQL_DEV01
-  spring.datasource.username= {db username}
-  spring.datasource.password= {db password}
-  spring.datasource.driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver
-  spring.jpa.show-sql=true
-  spring.jpa.hibernate.dialect=org.hibernate.dialect.SQLServer2012Dialect
-  spring.jpa.hibernate.ddl-auto=validate
+```
+spring.datasource.url=jdbc:sqlserver://fuller-sql-dev1.database.windows.net;databaseName=FULLER_SQL_DEV01
+spring.datasource.username= {db username}
+spring.datasource.password= {db password}
+spring.datasource.driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver
+spring.jpa.show-sql=true
+spring.jpa.hibernate.dialect=org.hibernate.dialect.SQLServer2012Dialect
+spring.jpa.hibernate.ddl-auto=validate
+```
 
 2. In the pom.xml file, remove the dependency for PostgreSQL.
 3. Add the dependency below for Azure SQL Server:
-    <dependency>
-			<groupId>com.microsoft.sqlserver</groupId>
-			<artifactId>mssql-jdbc</artifactId>
-			<version>6.2.1.jre8</version>
-		</dependency>
-  
+```
+<dependency>
+   <groupId>com.microsoft.sqlserver</groupId>
+   <artifactId>mssql-jdbc</artifactId>
+   <version>6.2.1.jre8</version>
+</dependency>
+```
 
 ### Deploy the CarApp as an Azure Web Service
 To deploy the CarApp as an Azure Web Service, follow the steps outlined here: 
