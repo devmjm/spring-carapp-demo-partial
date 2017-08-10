@@ -19,7 +19,7 @@ CREATE TABLE public.car
 
 INSERT INTO Users(id, firstname, lastname)
 VALUES
-	(uuid_generate_v4(), 'Bill', 'Nye'),
+    (uuid_generate_v4(), 'Bill', 'Nye'),
     (uuid_generate_v4(), 'Kanye', 'West'),
     (uuid_generate_v4(), 'Bill', 'Gates')
     
