@@ -39,7 +39,7 @@ https://spring.io/guides/gs/rest-service/
 3. Confirm you are able to achieve the behavior described in step 3 above.
 
 ### Further Help
-A completed version of this demo can be found at: https://github.com/devmjm/Demo/tree/master/CarApp
+A completed version of this demo can be found at: https://github.com/devmjm/spring-carApp-demo-full
 
 ## Tutorial 3: Deploy your CarApp Demo to Azure
 <b>Tutorial Purpose:</b> The purpose of this tutorial is to get an introduction to Azure. You will deploy the CarApp you built in Tutorial 2 as an Azure Web Service. Instead of using your local PostgreSQL instance, you will point your application to a pre-configured Azure SQL database.
