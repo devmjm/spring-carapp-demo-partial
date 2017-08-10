@@ -1,4 +1,4 @@
-# Spring CarApp Demo (Partial)
+# Spring RESTful Web Service Tutorial
 This is project is a collection of tutorials to learn about creating a RESTful web services using Spring Boot, Maven, and PostgreSQL. Start with Tutorial 1 to familiarize yourself with Spring Boot. Then, move on to Tutorial 2 to learn about RESTful web services.
 
 ## Tutorial 1: Hello World
@@ -12,10 +12,10 @@ https://spring.io/guides/gs/rest-service/
 1. Install PostgreSQL
 2. Create new PostgreSQL database named 'CarApp' (username = postgres, Password = demoPass)
 3. Initialize the schema by executing the script located at:
-<br/> https://github.com/devmjm/spring-carapp-demo-partial/blob/master/Scripts/CreateAndPopulateCarappDb
+<br/> https://github.com/devmjm/spring-rest-service-tutorial/blob/master/Scripts/CreateAndPopulateCarappDb
 
 ### Configure STS Workspace
-1. Clone the CarAppPartial repository from https://github.com/devmjm/spring-carapp-demo-partial to your STS workspace
+1. Clone the CarAppPartial repository from https://github.com/devmjm/spring-rest-service-tutorial to your STS workspace
 2. Open the CarApp project in STS
 3. Run the CarApp project as a 'Spring Boot App' and confirm it compiles and runs
 4. Stop the project
@@ -39,7 +39,7 @@ https://spring.io/guides/gs/rest-service/
 3. Confirm you are able to achieve the behavior described in step 3 above.
 
 ### Further Help
-A completed version of this demo can be found at: https://github.com/devmjm/spring-carApp-demo-full
+A completed version of this demo can be found at: https://github.com/devmjm/spring-rest-service-tutorial-complete
 
 ## Tutorial 3: Deploy your CarApp Demo to Azure
 <b>Tutorial Purpose:</b> The purpose of this tutorial is to get an introduction to Azure. You will deploy the CarApp you built in Tutorial 2 as an Azure Web Service. Instead of using your local PostgreSQL instance, you will point your application to a pre-configured Azure SQL database.
