@@ -5,7 +5,7 @@ This is project is a collection of tutorials to learn about creating a RESTful w
 https://spring.io/guides/gs/rest-service/
 <br> <i> Note: use Maven (not Gradle) </i>
 
-## Tutorial 2: CarApp - Basic REST Service
+## Tutorial 2: CarApp - Build a Simple REST Service
 <b>Tutorial Purpose:</b> The purpose of this tutorial is to demonstrate how to create a basic RESTful web service using Spring Boot, Maven, and PostgreSQL. The four major REST operations are demonstrated (GET, POST, PUT, DELETE). This tutorial intentionally excludes detailed steps on configuring your STS and PostgreSQL environments, as these steps are already well documented in numerous other resources.
 
 ### Configure PostgreSQL
@@ -41,10 +41,10 @@ https://spring.io/guides/gs/rest-service/
 ### Further Help
 A completed version of this demo can be found at: https://github.com/devmjm/Demo/tree/master/CarApp
 
-## Tutorial 3: Deploy CarApp Demo to Azure
+## Tutorial 3: Deploy your CarApp Demo to Azure
 <b>Tutorial Purpose:</b> The purpose of this tutorial is to get an introduction to Azure. You will deploy the CarApp you built in Tutorial 2 as an Azure Web Service. Instead of using your local PostgreSQL instance, you will point your application to a pre-configured Azure SQL database.
 
-### Update the CarApp to use Azure SQL Database
+### Update your CarApp to use Azure SQL Database
 1. Replace your application.properties file with the below values. Ask a team member to provide the username and password for the database.
 ```
 spring.datasource.url=jdbc:sqlserver://fuller-sql-dev1.database.windows.net;databaseName=FULLER_SQL_DEV01
@@ -66,7 +66,7 @@ spring.jpa.hibernate.ddl-auto=validate
 </dependency>
 ```
 
-### Deploy the CarApp as an Azure Web Service
+### Deploy your CarApp as an Azure Web Service
 To deploy the CarApp as an Azure Web Service, follow the steps outlined here: 
 https://docs.microsoft.com/en-us/azure/app-service/app-service-deploy-spring-boot-web-app-on-azure
 
