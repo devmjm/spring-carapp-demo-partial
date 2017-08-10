@@ -1,4 +1,4 @@
-# spring-carapp-demo-partial
+# Spring CarApp Demo (Partial)
 This is project is a collection of tutorials to learn about creating a RESTful web services using Spring Boot, Maven, and PostgreSQL. Start with Tutorial 1 to familiarize yourself with Spring Boot. Then, move on to Tutorial 2 to learn about RESTful web services.
 
 ## Tutorial 1: Hello World
