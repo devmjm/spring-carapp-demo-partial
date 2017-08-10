@@ -29,7 +29,7 @@ https://spring.io/guides/gs/rest-service/
 | :---         | :---                         | :---                 | :---                                                       |
 |GET           | localhost:8080/cars          | N/A                  | HttpStatus OK (200). <br/> List of all cars in your database.|
 |GET           | localhost:8080/cars/{vin}    | N/A                  | HttpStatus OK (200). <br/> Car with vin is returned |
-|POST          | localhost:8080/cars/         | { "Vin": 9, "Driver": "fb35753c-668c-11e7-ae07-d790c545bb70" } | HttpStatus Created (201). <br/> Car created created              |
+|POST          | localhost:8080/cars/         | { "Vin": 9, "Driver": "fb35753c-668c-11e7-ae07-d790c545bb70" } | HttpStatus Created (201). <br/> Car is created              |
 |DELETE        | localhost:8080/cars/{vin}    | N/A                  | HttpStatus OK (200). <br/> Car is deleted. |
 |PUT           | localhost:8080/cars/{vin}    | {	"Vin": 111, "Driver": "fb35753c-668c-11e7-ae07-d790c545bb70" }| HttpStatus OK (200). <br/> Car is updated. |
 
