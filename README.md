@@ -56,7 +56,7 @@ spring.jpa.hibernate.dialect=org.hibernate.dialect.SQLServer2012Dialect
 spring.jpa.hibernate.ddl-auto=validate
 ```
 
-2. In the pom.xml file, remove the dependency for PostgreSQL.
+2. In the `pom.xml` file, remove the dependency for PostgreSQL.
 3. Add the dependency below for Azure SQL Server:
 ```
 <dependency>
@@ -73,7 +73,7 @@ https://docs.microsoft.com/en-us/azure/app-service/app-service-deploy-spring-boo
 <i>Note:</i> for this demo, please use the "Free Tier" Azure service. This will be adequate for the purpose of the demo.
 
 ### Test the CarApp Service
-Test REST endpoints outlined specified in the "Start Building the REST Service" section of Tutorial 2. In the request URLs, replace "localhost:8080" with the domain of your web application. 
+Test REST endpoints outlined specified in the "Start Building the REST Service" section of Tutorial 2. In the request URLs, replace `localhost:8080` with the domain of your web application. 
 
 ## Additional Resources
 - REST basics: https://spring.io/understanding/REST
